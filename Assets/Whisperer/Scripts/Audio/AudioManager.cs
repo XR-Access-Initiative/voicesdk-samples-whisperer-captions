@@ -9,13 +9,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using System.Linq;
+using SimpleSRT;
+using XRAccess.Chirp;
 
 namespace Whisperer
 {
-        /// <summary>
-        ///     Pools positional audio sources and routes playback of audio clips
-        /// </summary>
-        public class AudioManager : MonoBehaviour
+    /// <summary>
+    ///     Pools positional audio sources and routes playback of audio clips
+    /// </summary>
+    public class AudioManager : MonoBehaviour
     {
         public static AudioManager Instance;
 
@@ -84,7 +87,17 @@ namespace Whisperer
                     /// Use spatial pool
                     if (clipData.Spatial) PlaySpatialSource(clipData, positionTransform);
                     /// Stereo play
-                    else _narratorSource.PlayOneShot(clipData.AudioClip, clipData.Volume);
+                    else
+                    {
+                        int index = clipData.AudioClips.FindIndex(a => a == clipData.AudioClip);
+                        if (clipData.Subtitles.ElementAtOrDefault(index) != null)
+                        {
+                            var subtitles = SRTParser.Load(clipData.Subtitles[index]);
+                            StartCoroutine(PlaySubtitles(subtitles, _narratorSource));
+                        }
+
+                        _narratorSource.PlayOneShot(clipData.AudioClip, clipData.Volume);
+                    }
                 }
             }
 
@@ -316,6 +329,32 @@ namespace Whisperer
                 _coroutines.Add(null);
                 _clipDatas.Add(null);
                 count++;
+            }
+        }
+
+        private IEnumerator PlaySubtitles(List<SubtitleBlock> subtitles, AudioSource audioSource)
+        {
+            if (subtitles == null || subtitles.Count == 0 || CaptionSystem.Instance == null)
+            {
+                yield break;
+            }
+
+            float startTime = Time.time;
+            float elapsedTime = 0f;
+
+            CaptionSource source = audioSource.GetComponent<CaptionSource>();
+
+            foreach (var subtitle in subtitles)
+            {
+                float duration = (float)subtitle.Length;
+
+                while (elapsedTime < subtitle.From)
+                {
+                    elapsedTime = Time.time - startTime;
+                    yield return null;
+                }
+
+                source.ShowTimedCaption(subtitle.Text, duration);
             }
         }
     }

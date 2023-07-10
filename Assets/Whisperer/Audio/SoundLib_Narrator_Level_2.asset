@@ -19,57 +19,77 @@ MonoBehaviour:
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: adb345a837520f7449cbaa0521f04c29, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: cf2c594d85ec61f4dadab31913c24f78, type: 3}
   - PlayID: Narrator_DistractBea
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 0b21167756b10ac4ebdbde98500cdfcb, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 36838d585a9fffb47a008cb617399b12, type: 3}
   - PlayID: Narrator_SpookWarning
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 9171d7a51b415f642abbeca5484302b3, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: fd8a7a4f2c78fd44cb92cd8f49a679be, type: 3}
   - PlayID: Narrator_RadioHint1
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 05e4acb5f6ff20b478a3a05016ac1298, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: f335f7176971ef1468aa131e4b808e63, type: 3}
   - PlayID: Narrator_RadioHint2
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: a539f71b146ca0044b53be54881fd1a0, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: bf54b4c41586cf04aad80f35f2748d25, type: 3}
   - PlayID: Narrator_GetToWork
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 86aef84c5c68d844f8136d326f45bb89, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: ff68b69088dcbfa468f423ed137044be, type: 3}
   - PlayID: Narrator_OneDown
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: a07185808e0de8d4390f1aaff429682c, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 05bebb20375dc2f4d98a4790caa04b9a, type: 3}
   - PlayID: Narrator_LastOne
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: e23e6a5c1f9df724db131e3d899c8cc1, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 3885e101d0385494d921577b1969b926, type: 3}
   - PlayID: Narrator_WakeUpBea
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: b770ca8d787266c41bc0eb00b608e089, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 2c2e14c957ed41743a1d170b5cfce952, type: 3}
   - PlayID: Narrator_WellDone
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: b2ee1ffc42974514e8f0fe5270457b00, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: a5e45ca01e689214d8948a4313076198, type: 3}

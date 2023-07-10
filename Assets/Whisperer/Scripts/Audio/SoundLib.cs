@@ -30,6 +30,7 @@ namespace Whisperer
             public bool Loop;
             public SelectMethod SelectMethod;
             public List<AudioClip> AudioClips;
+            public List<TextAsset> Subtitles; // list for storing subtitle assets associated with this clip
 
             public AudioClip AudioClip { get; set; }
             public float Volume { get; set; }

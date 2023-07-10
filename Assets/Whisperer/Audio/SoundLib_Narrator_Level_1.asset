@@ -19,51 +19,69 @@ MonoBehaviour:
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 1c7b4482468963942b87f9a4ceb43695, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 23251698cec48fa4d84e5e4d2fc607a6, type: 3}
   - PlayID: Narrator_Intro_2
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: d7f960d4993040a4987a816a5e345cbc, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: fbe9d02f53b712340ab62cfb59104812, type: 3}
   - PlayID: Narrator_Hands1
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 9a37520c5455db3459451cb54502be97, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 70db7a2900b3a6e419dc7326773db6a9, type: 3}
   - PlayID: Narrator_Hands2
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 510cb63607a94354d82f6c8d63c8e0e0, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 2383d50ca92484347a5209adf5a703b1, type: 3}
   - PlayID: Narrator_MoveDirection
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 231b08d9fd380ae4ab0c9deb9b229cb6, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 4408ef9226752fb4fa39c4469a3e29e1, type: 3}
   - PlayID: Narrator_BirdWake
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 1da4f40f95162ac4cadc64100a73615c, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 22ba069cd8e12ad4bac2a6e394749f3c, type: 3}
   - PlayID: Narrator_ShowingOff
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 4bb9fe1f44d9327428c1c8562f4a5c28, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 16739f53073e68248b36efbae700f0ee, type: 3}
   - PlayID: Narrator_Ruckus
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 9310500e0272fc74990ffd2030a634a7, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 5fd43eb5fb33bdd4a8a5b69735cbc1ab, type: 3}
   - PlayID: Narrator_Mess
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 450f4f82338a3b94e93984159b8b818b, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 6265ee1bbf6bbad48ae50fe3a8294772, type: 3}

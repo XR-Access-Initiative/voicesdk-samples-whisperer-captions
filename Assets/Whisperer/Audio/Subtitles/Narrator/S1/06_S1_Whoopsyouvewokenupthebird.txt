@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:03,000
+Whoops! You've woken up the bird!
+
+2
+00:00:03,000 --> 00:00:06,000
+If you ever need tips, you can always ask him for help,
+
+3
+00:00:06,000 --> 00:00:09,000
+or pull the triggers when you've selected an object.
+

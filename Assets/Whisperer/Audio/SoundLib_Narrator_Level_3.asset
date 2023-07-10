@@ -19,27 +19,37 @@ MonoBehaviour:
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 8551afa0ac8618c41a966c429396ec65, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 123e44c2b3049864aa70ea37b30fa300, type: 3}
   - PlayID: Narrator_Intro3
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: e1772dfe2aadf654ea7422adc0c3ea64, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: faa9ce503154af443a8010d064c95264, type: 3}
   - PlayID: Narrator_BeaTakeover
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 7bd835bf0c055614e827089fbe401aff, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 05d9001be84ebe540ae63291cae8a3ad, type: 3}
   - PlayID: Narrator_Complete3
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: abb334f5fa733a54bb43e45fa28c0eda, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: 36ccb5463ecd6c04cbdfd1e157aab25b, type: 3}
   - PlayID: Narrator_OtherSide
     Spatial: 0
     Loop: 0
     SelectMethod: 0
     AudioClips:
     - {fileID: 8300000, guid: 6d6f5bbc9ece84a4e8ecbedc1bdaba26, type: 3}
+    Subtitles:
+    - {fileID: 4900000, guid: e24ffe602073ade41bba8effffe2f8e0, type: 3}

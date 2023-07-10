@@ -1,0 +1,12 @@
+1
+00:00:00,000 --> 00:00:02,200
+We need to distract Bea first.
+
+2
+00:00:02,200 --> 00:00:06,500
+Remember, if you need a hint, pull the triggers once you've highlighted an object,
+
+3
+00:00:06,500 --> 00:00:08,180
+or ask Harold for help.
+
